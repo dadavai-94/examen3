@@ -59,13 +59,15 @@ body {
   width: 293px;
   height: 50px;
   background: #272A2F;
+  cursor: pointer;
 }
 .btn:hover {
-  background: #19849B;
+  background: #19849B; 
+  border: none;
 }
 
 .portfolio {
-  margin: 85px 0 100px 0;
+  margin: 85px 0 97px 0;
 }
 .portfolio__text {
   width: 760px;
@@ -78,8 +80,21 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 509px;
+  height: 512px;
   align-content: space-between;
+}
+
+.portfolio__image_vector {
+  background: linear-gradient( 
+    0deg
+     , rgb(45 181 210 / 2%), rgba(25, 124, 146, 0.5)), url(../image/Vector.png) no-repeat;
+        background-position: center;
+  
+}
+
+.portfolio__image_img:hover {
+  cursor: pointer;
+  opacity: 0.1;
 }
 
 .footer {
@@ -113,6 +128,10 @@ body {
 .footer__address{
   width: 100%;
   height: 44px;
-  margin: 0 -91px 0 0;
+  margin: 0 0 0 0;
 background: #16758A;
+}
+
+address {
+  margin-left: 91px;
 }
