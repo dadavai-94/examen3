@@ -54,3 +54,21 @@ body {
   height: 50px;
   background: #272A2F;
 }
+
+.portfolio {
+  margin: 105px 0 0 0;
+}
+.portfolio__text {
+  width: 760px;
+}
+
+.portfolio__text p {
+  margin: -7px 0 29px 0px;
+}
+.portfolio__image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 509px;
+  align-content: space-between;
+}

@@ -53,3 +53,23 @@ letter-spacing: 1.5px;
 text-transform: uppercase;
 color: #FFFFFF;
 }
+
+.portfolio__text h2 {
+  font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+
+.portfolio__text p {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
