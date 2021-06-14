@@ -29,10 +29,28 @@ body {
 
 .block {
   display: flex;
+  height: 355px;
 }
 .block__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  margin: -30px 0px 0px 69px;
+  width: 559px;
+}
+.block__text_h3 {
+  border-bottom: 4px solid  #19849B;
+    height: 82px;
+}
+
+.block__text p:nth-child(2) {
+  margin-top: -18px;
+}
+
+.block__text p:nth-child(3) {
+  margin: 29px 0 31px 0;
+}
+.btn {
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  width: 293px;
+  height: 50px;
+  background: #272A2F;
 }
