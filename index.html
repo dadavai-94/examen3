@@ -17,7 +17,13 @@
 
       <main class="main">
         <nav class="block">
-          <img src="image/desktop/avatar.png" alt="avatar">
+          <picture class="content__banner">
+            <source media="(min-width:901px)" srcset="image/desktop/avatar.png">
+            <source media="(min-width:376px)" srcset="image/tablet/avatar2.png">
+            <source media="(min-width:265px)" srcset="image/mobile/avatar3.png">
+            <img src="image/desktop/avatar.png" alt="avatar" style="width:auto;">
+          </picture>
+          
           <div class="block__text">
           <h3 class="block__text_h3">Hey. I'm Lucas <br>
               And I'm a professional photographer</h3>
@@ -35,14 +41,14 @@
             </div>
 
             <div class="portfolio__image">
-              <img src="image/desktop/Rectangle7.png" alt="foto">
-              <img src="image/desktop/Rectangle8.png" alt="foto">
-              <img src="image/desktop/Rectangle9.png" alt="foto">
-              <img src="image/desktop/Rectangle10.png" alt="foto">
-              <img src="image/desktop/Rectangle11.png" alt="foto">
-              <img src="image/desktop/Rectangle12.png" alt="foto">
-              <img src="image/desktop/Rectangle13.png" alt="foto">
-              <img src="image/desktop/Rectangle14.png" alt="foto">
+              <a href="" class="portfolio__image_vector"><img src="image/desktop/Rectangle7.png" class="portfolio__image_img"  alt="foto"></a>
+              <a href="" class="portfolio__image_vector"><img src="image/desktop/Rectangle8.png" class="portfolio__image_img" alt="foto"></a>
+              <a href="" class="portfolio__image_vector"><img src="image/desktop/Rectangle9.png" class="portfolio__image_img" alt="foto"></a>
+              <a href="" class="portfolio__image_vector"><img src="image/desktop/Rectangle10.png" class="portfolio__image_img" alt="foto"></a>
+              <a href="" class="portfolio__image_vector"><img src="image/desktop/Rectangle11.png" class="portfolio__image_img" alt="foto"></a>
+              <a href="" class="portfolio__image_vector"><img src="image/desktop/Rectangle12.png" class="portfolio__image_img" alt="foto"></a>
+              <a href="" class="portfolio__image_vector"><img src="image/desktop/Rectangle13.png" class="portfolio__image_img" alt="foto" class="portfolio__image_vector"></a>
+              <a href="" class="portfolio__image_vector"><img src="image/desktop/Rectangle14.png" class="portfolio__image_img" alt="foto"></a>
             </div>
           </div>
       </main>
