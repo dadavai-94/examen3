@@ -9,6 +9,7 @@ body {
 }
 .conteiner__body {
   height: auto;
+  
   background: #272A2F;
   width: 100%;
 }
@@ -27,7 +28,7 @@ body {
 
 .main {
   display: flex;
-  width: 1038px;
+  max-width: 1038px;
   margin: 51px 174px 0 227px;
   flex-direction: column;
   flex-wrap: wrap;
@@ -138,11 +139,64 @@ address {
 }
 
 .modal {
-  width: 656px;
-  height: 586px;
+     display: none;
+     width: 656px;
+     height: 586px;
+     margin: -100px 0px 0px 100px;
+     padding: 30px;
+     position: fixed;
+}
+.modal__conteiner {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
   background: #272A2F;
+}
+.modal__conteiner_block {
+  width: 567px;
+}
+.modal__form_name {
+  width: 196px;
+  height: 50px;
+  border: none;
+  margin: 0 15px 20px 0;
+  outline: 0;
+  background: #324B53;
+}
+
+.modal__form_email {
+  width: 343px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #324B53;
+}
+.modal__form_commit {
+  width: 563px;
+  height: 217px;
+  border: none;
+  outline: 0;
+  background: #324B53;
+}
+
+.modal__form_btn {
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  width: 217px;
+  height: 50px;
+  background: #272A2F;
+  cursor: pointer;
+  margin: 26px 0 0 0;
+}
+
+.modal__form_btn:hover {
+  background: #19849B; 
+  border: none;
 }
 
 
