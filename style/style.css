@@ -140,15 +140,13 @@ address {
 
 .modal {
      display: none;
-     width: 656px;
-     height: 586px;
-     margin: -100px 0px 0px 100px;
-     padding: 30px;
+     width: 100%;
+     height: 100%;
      position: fixed;
 }
 .modal__conteiner {
-  width: 100%;
-  height: 100%;
+  width: 656px;
+  height: 586px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -156,6 +154,7 @@ address {
   justify-content: center;
   align-items: center;
   background: #272A2F;
+  margin: -70px 0 0 130px;
 }
 .modal__conteiner_block {
   width: 567px;
@@ -215,7 +214,24 @@ address {
   height: auto;
   width: 760px;
  }  
-  
+
+.modal__conteiner_block {
+  width: 90%;
+}
+
+.modal__conteiner {
+  width: 500px;
+  margin: -70px 0 0 100px;
+}
+.modal__form_commit {
+  width: 99%;
+}
+.modal__form_email {
+  width: 226px;
+}
+
+
+
   .main {
     margin: 51px 67px 0 68px;
   }
