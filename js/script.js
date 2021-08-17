@@ -5,6 +5,7 @@ const messeng = document.querySelector (".modal__form_btn");
 
 function openModal () {
   modal.style.display = "block";
+  
 }
 
 function closeModal () {
