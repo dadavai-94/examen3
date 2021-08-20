@@ -66,6 +66,7 @@ body {
 .btn:hover {
   background: #19849B; 
   border: none;
+  transition: 0.5s;
 }
 
 .portfolio {
@@ -97,6 +98,7 @@ body {
 .portfolio__image_img:hover {
   cursor: pointer;
   opacity: 0.1;
+  transition: 0.5s;
 }
 
 .footer {
@@ -196,6 +198,7 @@ address {
 .modal__form_btn:hover {
   background: #19849B; 
   border: none;
+  transition: 0.5s;
 }
 
 

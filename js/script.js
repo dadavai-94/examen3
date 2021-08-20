@@ -24,3 +24,35 @@ window.onclick = function(event) {
     closeModal();
   }
 }
+
+
+    const form = document.querySelectorAll(".modal__form");
+
+		//const modalName = form.querySelector(".modal__form_name");
+    //const modalEmail = form.querySelector(".modal__form_email");
+    //const modalCommit = form.querySelector(".modal__form_commit");
+    const modalBtn = form[0].querySelector(".modal__form_btn");
+
+  function getDataForm(e){
+    e.preventDefault();
+    
+    var formData = new FormData(form[0]);
+
+    console.log("User: " + 
+    formData.get("name"),
+ );
+ console.log("Mail: " + 
+    formData.get("email"),
+ );
+ console.log("Commit: " + 
+    formData.get("commit"),
+ );
+  }
+  
+  document.addEventListener("DOMContentLoaded", function(){
+    modalBtn.addEventListener("click", getDataForm, false);
+    modalBtn.addEventListener("click", closeModal, false);
+    }, false) 
+
+
+
